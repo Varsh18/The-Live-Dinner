@@ -54,3 +54,18 @@
 .menu-group .menu-items a:hover {
   background: #401408;
 }
+
+@media only screen and (min-width: 600px) {
+  .menu-list label {
+    display: none;
+  }
+  .menu-group{
+    display:inline-block;
+  }
+  .menu-group .menu-items {
+      display: inline-block;
+      border: none;
+      width: 10%;
+      box-sizing:initial;
+  }
+}
