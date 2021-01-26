@@ -24,7 +24,7 @@
 	display:inline-block;
 }
 
-  #hamburger-menu label { 
+  .menu-list label { 
     display: inline-block; 
     color: white;
     background: #a02620;
@@ -44,7 +44,7 @@
 
   /* Toggle Show/Hide Menu */
   .menu-group { display: none; }
-  #hamburger-menu input:checked ~ .menu-group { display: block; }
+  .menu-list input:checked ~ .menu-group { display: block; }
   .menu-list {
   width: 100%;
   background: green;
