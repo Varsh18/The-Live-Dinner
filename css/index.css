@@ -54,7 +54,16 @@
 .menu-group .menu-items a:hover {
   background: #401408;
 }
-
+#slideshow{
+  position: relative;
+  text-align: center;
+}
+#welcome-text{
+  position: absolute;
+  top:30%;
+  right: 40%;
+  font-size: 45px;
+}
 @media only screen and (min-width: 600px) {
   .menu-list label {
     display: none;
